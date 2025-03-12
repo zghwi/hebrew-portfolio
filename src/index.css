@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 60;
+  /* Higher than the timeline */
+}
+
+.hebrew-text {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
